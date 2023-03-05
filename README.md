@@ -1,1 +1,1 @@
-# plant-care-api
+# plant-care
