@@ -7,7 +7,7 @@ import org.springframework.boot.runApplication
 class PlantcareApplication
 
 fun main(args: Array<String>) {
-	print("Starting service :: Plant Care")
+	println("Starting service :: Plant Care")
 	runApplication<PlantcareApplication>(*args)
-	print("Started service :: Plant Care")
+	println("Started service :: Plant Care")
 }

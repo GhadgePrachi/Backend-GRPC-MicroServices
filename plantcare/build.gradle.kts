@@ -36,6 +36,7 @@ dependencies {
 	implementation("com.google.protobuf:protobuf-kotlin:$protobufVersion")
 	implementation("net.devh:grpc-client-spring-boot-starter:2.12.0.RELEASE")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1")
+	implementation("io.github.microutils:kotlin-logging-jvm:2.0.11")
 
 	if (JavaVersion.current().isJava9Compatible) {
 		implementation("javax.annotation:javax.annotation-api:+")
